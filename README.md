@@ -2,5 +2,5 @@
 ASSIGNMENT 2 <br/>
 [CSW 202 WEB PAGE PUBLISHING] <br/> <br/>
 
-STUDENT ID  : E1800182 <br/>
+STUDENT ID &nbsp; : E1800182 <br/>
 NAME &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : IDA BAGUS GEDE AWIDYA ANDIKA
