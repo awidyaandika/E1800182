@@ -1,0 +1,94 @@
+.container .header .logo{
+  width: 120px;
+  height: auto;
+  margin-left: 250px;
+  margin-top: -30px;
+}
+.container .border-header{
+  border-bottom: solid 1px #e5e5e5;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+/*SUPPORT*/
+* {box-sizing: border-box;}
+
+body{
+	font-family: arial, sans-serif;
+}
+
+textarea{
+	height: 200px;
+}
+
+h3{
+	text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #16a085;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact-us {
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  margin-left: 350px;
+}
+
+/*BRIEF US*/
+.container .footer .brief-us{
+  border-top: 1px solid #e5e5e5;
+  margin-top: 180px;
+}
+.container .footer .brief-us img{
+  height: 40px;
+  width: 100px;
+  float: left;
+  margin-left: 500px;
+  margin-top: 5px;
+}
+.container .footer .brief-us .about{
+  font-size: 12px;
+  color: #828282;
+  float: left;
+  padding-left: 5px;
+}
+/*RESPONSIVE*/
+@media only screen and (min-width: 1920px){
+  .container .header .logo{
+    margin-left: 400px;
+  }
+  .container .title-desc{
+    margin-left: 600px;
+    margin-top: 150px;
+  }
+  .container .footer .brief-us img{
+    margin-left: 700px;
+  }
+  .container .footer .brief-us{
+    margin-top: 200px;
+  }
+  .contact-us{
+  	margin-left: 500px;
+  }
+}

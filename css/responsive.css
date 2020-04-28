@@ -1,0 +1,75 @@
+/*RESPONSIVE WEB*/
+@media only screen and (min-width: 1920px){
+	.container .navbar{
+		float: left;
+		padding-top: 120px;
+		margin-left: -300px;
+	}
+	/*FLEX BORDER*/
+	.reason-border p{
+		font-size: 22px;
+		font-weight: 700;
+	}
+	.flex-border{
+		margin-left: 295px;
+	}
+	.flex-border .border1 img{
+		width: 430px;
+		height: 150px;
+	}
+	.flex-border .border2 img{
+		width: 430px;
+		height: 150px;
+	}
+	.flex-border .border3 img{
+		width: 430px;
+		height: 150px;
+	}
+	/*CATEGORY*/
+	.container .category{
+		margin-left: 300px;
+	}
+	.container .category .list img{
+		width: 208px;
+		height: 110px;
+		border-radius: 5px;
+		margin-left: 10px;
+	}
+	.container .category .list p{
+		font-size: medium;
+		margin-left: 10px;
+		width: 190px;
+		height: 25px;
+	}
+	/*TRUST*/
+	.container .trust{
+		margin-left: 250px;
+		margin-top: 80px;
+	}
+	.container .trust .list1 img, .list2 img, .list3 img, .list4 img{
+		height: 100px; 
+		width: 100px;
+	}
+	.container .trust .list1 .title, .list2 .title, .list3 .title, .list4 .title{
+		font-size: 16px;
+	}
+	.container .trust .list1 .desc, .list2 .desc, .list3 .desc, .list4 .desc{
+		font-size: 14px;
+		width: 300px;
+	}
+	/*BRIEF INFO*/
+	.container .brief-info{
+		margin-left: 310px;
+	}
+	/*PAYMENT*/
+	.container .footer .payment{
+		margin-left: 310px;
+	}
+	.container .footer .payment .cash, .e-wallet{
+		margin-left: 190px;
+	}
+	/*BRIEF US*/
+	.container .footer .brief-us img{
+		margin-left: 700px;
+	}
+}
