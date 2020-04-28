@@ -6,6 +6,8 @@
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	<link rel="stylesheet" type="text/css" href="css/register.css">
 	<link rel="shortcut icon" href="img/icon.png" />
+	<script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -23,12 +25,14 @@
 		<div id="register-form">
 			<div class="left">
 		    <h1>Register</h1>
-			    <input type="text" name="username" placeholder="Username"/>
-			    <input type="text" name="email" placeholder="E-mail"/>
-			    <input type="password" name="password" placeholder="Password"/>
-			    <input type="password" name="password2" placeholder="Retype password"/>
-			    <input type="text" name="phone" placeholder="Number Phone"/>
+		    <form id="register">
+			    <input type="text" name="username" placeholder="Username" class="required" title="Please input username..." />
+			    <input type="text" name="email" placeholder="E-mail" class="required" title="Please input email..."/>
+			    <input type="password" name="password" placeholder="Password" class="required" title="Please input password..."/>
+			    <input type="password" name="password2" placeholder="Retype password" class="required" title="Please input password..."/>
+			    <input type="text" name="phone" placeholder="Number Phone" class="required"/>
 			    <input type="submit" name="signup_submit" value="Register"/>
+			</form>
 		  	</div>
 		  	<div class="right">
 			    <span class="registerwith">Register with<br/>Social Network</span>
@@ -50,5 +54,10 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+       $(document).ready(function(){
+          $("#register").validate();
+       });
+    </script>
 </body>
 </html>
